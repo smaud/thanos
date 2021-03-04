@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-const testFolder = '~/.ssh/';
+const path = require('path');
+const homedir = require('os').homedir();
+const testFolder = path.join(homedir,'.ssh');
 const fs = require('fs');
 
 fs.readdir(testFolder, (err, files) => {
