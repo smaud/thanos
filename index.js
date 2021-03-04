@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const testFolder = './.ssh/';
 const fs = require('fs');
 
