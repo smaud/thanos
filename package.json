@@ -1,0 +1,12 @@
+{
+  "name": "thanos",
+  "version": "1.0.0",
+  "description": "Bad robot",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Thanos",
+  "license": "yeah right"
+}
